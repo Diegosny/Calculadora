@@ -1,14 +1,14 @@
 	<!doctype html>
 <html lang="pt-br">
   <head>
-		<title>Treino</title>
+		<title>Calculadora </title>
 	  <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fite=no">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" media="screen" href="css/estilo.css">
 		<script src="js/script.js"></script>
 </head>
-
+<body>
 <div class="container">
 		<div class="row">
 			<div class="col d-flex justify-content-center">
@@ -24,8 +24,8 @@
 					</div>
 
 					<div class="row">
-						<button onclick="calcular('valor', 7)" type="button" class="btn btn-dark btn-lg font-weight-light">7</button>
-						<button onclick="calcular('valor', 8)" type="button" class="btn btn-dark btn-lg font-weight-light">8</button>
+						<button onkeypress="calcular('valor', 7)" type="button" class="btn btn-dark btn-lg font-weight-light">7</button>
+						<button onclick="calcular('valor', 8)" atype="button" class="btn btn-dark btn-lg font-weight-light">8</button>
 						<button onclick="calcular('valor', 9)" type="button" class="btn btn-dark btn-lg font-weight-light">9</button>
 						<button onclick="calcular('acao', '-')" type="button" class="btn btn-dark btn-lg font-weight-light">-</button>
 					</div>
