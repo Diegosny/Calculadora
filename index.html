@@ -6,9 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fite=no">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" media="screen" href="css/estilo.css">
-
-
+		<script src="js/script.js"></script>
 </head>
+
 <div class="container">
 		<div class="row">
 			<div class="col d-flex justify-content-center">
@@ -52,29 +52,6 @@
 				</div>
 			</div>
 		</div>
-
-			<script>
-					function calcular (tipo,valor) {
-						if ( tipo === 'acao') {
-								if (valor === 'c') {
-									document.getElementById('resultado').value = '';
-								} 
-
-							if (valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor === '.') {
-								document.getElementById('resultado').value += valor;
-							}
-							
-							if (valor === '=') {
-								const valor_campo = document.getElementById('resultado').value
-								console.log(valor_campo);
-							}
-
-
-						} else if (tipo === 'valor' ) {
-							document.getElementById('resultado').value += valor;
-						}
-					}
-			</script>
 	</div>    
 </body>
 </html>
